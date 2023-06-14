@@ -35,7 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
               text: TextSpan(
                 children: [
                   TextSpan(
-                    text: "Wiki",
+                    text: "Maat",
                     style: AppTheme.logoStyle.copyWith(
                       color: AppTheme.blueColor,
                     ),

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "514538925318",
+    "project_id": "maat-34a13",
+    "storage_bucket": "maat-34a13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514538925318:android:b9a557ce8ff7796f7b4287",
+        "android_client_info": {
+          "package_name": "com.maat.wikiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514538925318-dg99ed48nmc36rujub91965fb6giio4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgds-CCGvKViIG1Hg0CCeow5pVY2pPgMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514538925318-dg99ed48nmc36rujub91965fb6giio4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

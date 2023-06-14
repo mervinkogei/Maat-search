@@ -26,7 +26,7 @@ class SearchWidget extends StatelessWidget {
             ),
             SizedBox(width: 10.0),
             Text(
-              "Search Wiki",
+              "Search Maat",
               style: AppTheme.searchTextStyle,
             ),
             Spacer(),

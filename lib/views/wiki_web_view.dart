@@ -25,7 +25,7 @@ class _WikiWebViewState extends State<WikiWebView> {
       appBar: AppBar(
         backgroundColor: AppTheme.searchScreenBGColor,
         title: Text(
-          "WikiSearch",
+          "MaatSearch",
           style: GoogleFonts.montserrat(),
         ),
       ),

@@ -36,6 +36,14 @@ class AppRoutes {
           ),
         );
 
+      case "/calendar":
+        return getMaterialRoute(
+          BlocProvider(
+            create: (context) => NewsCubit(),
+            child: HomeScreen(),
+          ),
+        );
+
       case "/search":
         final WikiSearchArgs? args = route.arguments as WikiSearchArgs?;
         return getMaterialRoute(

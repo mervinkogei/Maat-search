@@ -24,7 +24,7 @@ class SearchWidget extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(
-            "WikiSearch",
+            "MaatSearch",
             style: AppTheme.logoStyle.copyWith(fontSize: 22.0),
           ),
           SizedBox(height: 30.0),

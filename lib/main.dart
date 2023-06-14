@@ -4,6 +4,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:wikiapp/models/wikipage/Wikipage.dart';
 import 'package:wikiapp/routes/app_routes.dart';
 import 'package:wikiapp/theme/app_theme.dart';
+import 'package:wikiapp/views/home_screen/pages/add_event.dart';
 
 void main() async {
   Hive.registerAdapter<WikiPage>(WikiPageAdapter());
@@ -23,7 +24,7 @@ class WikiSearch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,      
       theme: ThemeData.dark(),
       onGenerateRoute: AppRoutes.onGeneratedRoutes,
     );

@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lottie/lottie.dart';
 import 'package:wikiapp/cubits/news/newscubit_cubit.dart';
 import 'package:wikiapp/theme/app_theme.dart';
+import 'package:wikiapp/views/home_screen/pages/calendar_menu.dart';
 import 'package:wikiapp/views/home_screen/widgets/news_list.dart';
 import 'package:wikiapp/views/search_results/widgets/nointernet_widget.dart';
 import '../widgets/search_widget.dart';
@@ -64,8 +65,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        mainAxisAlignment: MainAxisAlignment.center,
+                        // mainAxisSize: MainAxisSize.min,
+                        // mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           CachedNetworkImage(
                             imageUrl:
@@ -78,7 +79,8 @@ class _HomeScreenState extends State<HomeScreen> {
                             height: 40.0,
                             width: 40.0,
                           ),
-                          Text("30° C")
+                          Expanded(child: Text("30° C")),
+                          IconButton(onPressed: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context)=>CalendarMenu())), icon: Icon(Icons.menu))
                         ],
                       ),
                     ),
@@ -94,7 +96,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 text: TextSpan(
                                   children: [
                                     TextSpan(
-                                      text: "Wiki",
+                                      text: "Maat",
                                       style: AppTheme.logoStyle.copyWith(
                                         color: AppTheme.blueColor,
                                       ),

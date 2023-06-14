@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/Shashwat-Joshi/WikiSearch/main/docs/assets/wikisearch.svg" height="130" alt="WikiSearch" />
+<img src="https://raw.githubusercontent.com/Shashwat-Joshi/WikiSearch/main/docs/assets/wikisearch.svg" height="130" alt="MaatSearch" />
 </p>
 
 <p align="center" style="margin-bottom: 50px">

@@ -1,9 +1,9 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/Shashwat-Joshi/WikiSearch/main/docs/assets/wikisearch.svg" height="130" alt="MaatSearch" />
+<!-- <img src="https://raw.githubusercontent.com/Shashwat-Joshi/WikiSearch/main/docs/assets/wikisearch.svg" height="130" alt="MaatSearch" /> -->
 </p>
 
 <p align="center" style="margin-bottom: 50px">
-<a href="https://github.com/Shashwat-Joshi/WikiSearch/issues">
+<!-- <a href="https://github.com/Shashwat-Joshi/WikiSearch/issues">
         <img src="https://img.shields.io/github/issues/Shashwat-Joshi/WikiSearch" alt="Issues"></a>
     <a href="https://github.com/Shashwat-Joshi/WikiSearch/network/members" alt="Forks">
         <img src="https://img.shields.io/github/forks/Shashwat-Joshi/WikiSearch" /></a>
@@ -17,7 +17,7 @@
         alt="License"></a>
     <a href="https://flutter.dev/">
         <img src="https://img.shields.io/badge/-Flutter-blue"
-            alt="Flutter"/></a>
+            alt="Flutter"/></a> -->
 </p>
 
 # Table of contents
@@ -36,7 +36,7 @@
 
 
 # Project Description
-- WikiSearch is a [Flutter](https://flutter.dev/) search engine which was build using BLoC/Cubit pattern and powered by the [MediaWiki](https://www.mediawiki.org/wiki/API:Main_page) API.
+- Maat Search is a [Flutter](https://flutter.dev/) search engine which was build using BLoC/Cubit pattern and powered by the [MediaWiki](https://www.mediawiki.org/wiki/API:Main_page) API.
 - It also uses the [NewsApi](https://newsapi.org/) to show the latest news in its homescreen.
 - WikiSearch also uses caching to improve UX, for caching we have used a NoSQL database called [HiveDB](https://docs.hivedb.dev/#/).
 
@@ -85,9 +85,9 @@ Hive is a NoSQL database which has really great performance in terms of both wri
 
 <div style="text-align: center">
     <table><tr>
-        <td style="text-align: center">
+<!--         <td style="text-align: center">
             <img src="https://raw.githubusercontent.com/Shashwat-Joshi/WikiSearch/main/docs/assets/news_list.gif" width="250"/>
-        </td>
+        </td> -->
         <td style="text-align: center">
             <img src="https://github.com/Shashwat-Joshi/WikiSearch/blob/main/docs/assets/wiki_search.gif?raw=true" width="250"/>
         </td>
@@ -109,7 +109,7 @@ The basic steps you need to follow to get started with this project.
 
 **Step 1: Clone this repo**
 ```
-git clone https://github.com/Shashwat-Joshi/WikiSearch.git
+git clone https://github.com/mervinkogei/Maat-search.git
 ```
 
 **Step 2: Run these commands in the project directory to download the required packages**
